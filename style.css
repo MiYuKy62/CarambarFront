@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./assets/image/carambarfond.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+#carambarLogo {
+    width: 150px; /* Ajustez la taille selon vos besoins */
+    border: none; /* Supprime la bordure */
+    background-color: yellow; /* Fond transparent */
+    cursor: pointer;
+}
+
+.joke {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: yellow   ;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
